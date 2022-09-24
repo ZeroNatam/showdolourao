@@ -34,6 +34,7 @@ body {
 }
 
 .button-3d {
+  cursor: pointer;
   position:relative;
   /*width: auto;*/
   display:inline-block;
