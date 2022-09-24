@@ -5,3 +5,7 @@
 .p8{
   padding: 8px;
 }
+
+button{
+  cursor: pointer;
+}
