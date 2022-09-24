@@ -59,9 +59,9 @@ function certeza(){
 r_sim.addEventListener('click',(arg) => {
   if(resposta===resposta_certa){
     alert("correto, vamos para a próxima pergunta");
-    window.location.replace("/./telas/pergunta3/index.html");
+    window.location.replace("../pergunta3/index.html");
   }else{
-    window.location.replace("/../index.html");
+    window.location.replace("https://zeronatam.github.io/showdolourao/");
     alert("perdeu tudo !");
   }
 });

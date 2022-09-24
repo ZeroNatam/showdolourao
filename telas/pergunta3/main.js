@@ -59,10 +59,10 @@ function certeza(){
 r_sim.addEventListener('click',(arg) => {
   if(resposta===resposta_certa){
     alert("correto, vamos para a próxima pergunta");
-    alert("fim de jogo pra você ver como nos investimos pesado no orçamento desse game do século agr começa tudo dnv não coloquei mais porque eu e meu colega lourao ficamos sem criatividade ENVIE SUGESTÕES DE MAIS PERGUNTAS NA DM DO Nobre @alecioplok")
-    window.location.replace("/../index.html");
+alert("fim de jogo pra você ver como nos investimos pesado no orçamento desse game do século agr começa tudo dnv não coloquei mais porque eu e meu colega lourao ficamos sem criatividade ENVIE SUGESTÕES DE MAIS PERGUNTAS NA DM DO Nobre @alecioplok")
+window.location.replace("https://zeronatam.github.io/showdolourao/");
   }else{
-    window.location.replace("/../index.html");
+    window.location.replace("https://zeronatam.github.io/showdolourao/");
     alert("perdeu tudo !");
   }
 });
