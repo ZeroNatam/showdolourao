@@ -1,0 +1,114 @@
+body{
+  background-image: url(/../assets/fundo.png);
+  color: white;
+  font-family: sans-serif;
+  /*background-size: 100%;*/
+}
+
+.pergunta{
+  background-color: red;
+  border-radius: 15px;
+  padding: 8px;
+  display: grid;
+  grid: auto-flow / 1fr 7fr;
+  align-items: center;
+  /*height: 200px;*/
+  
+  border-style: solid;
+  background-image: url(imgs/pfundo.png);
+  border-width: 2px;
+  border-color: #680B0B;
+  color: white;
+  /*width: 100%;*/
+}
+
+.lista{
+  list-style-type: decimal;
+  /*background-color: red;*/
+  /*text-align: left;*/
+}
+
+.valor_e_ajuda{
+  display: flex;
+  /*background-color: #941818;*/
+  /**width: 100%;*/
+  /*align-items: center;*/
+  /*padding: 8px;*/
+  border-radius: 8px;
+  justify-content: space-between;
+  margin: 8px 0px;
+}
+
+.valor{
+  background-color: #941818;
+  border-radius: 5px;
+}
+
+.lourao{
+  /*position: absolute;
+  top: 0px;*/
+  width: 50px;
+  height: 50px;
+}
+
+.nm{
+  display: grid;
+  align-items: center;
+  text-align: center;
+  height: 50px;
+  width: 50px;
+  background-image: url(imgs/rfundo.png);
+  background-size: 100%;
+  background-color: red;
+  color: white;
+  border-radius: 5px;
+}
+
+.pbtn{
+  padding-left: 0px;
+  padding: 4px;
+  border-radius: 5px;
+  background-color: #131313;
+  color: white;
+  border-width: 1px;
+  border-style: dotted;
+  display: flex;
+  margin-bottom: 8px; 
+  width: 100%;
+  /*grid: auto-flow / 1fr 1fr 1fr;*/
+}
+
+.pbtn p{
+  font-size: 15px;
+  margin-left: 10px;
+  
+  /*background-color: blue;*/
+}
+
+.imgpbtn1{
+  background-image: url(imgs/1.png);
+  background-size: 100%;
+}
+
+.btnj{
+  /*background-color: #90091d;
+  color: white;
+  border-style: solid;
+  padding: 8px;
+  border-color: #BA2222;*/
+  border-radius: 8px;
+  margin: 8px;
+  
+}
+
+.valorimg{
+  width: 40px;
+  height: 40px;
+  /*background-color: red;*/
+  background-image: url(imgs/50centavos.png);
+  background-size: 100%;
+}
+
+#tem_certeza{
+  display: none;
+}
